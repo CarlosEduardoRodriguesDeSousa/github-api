@@ -1,0 +1,19 @@
+{
+  "name": "github-api",
+  "description": "api que consome e retorna dados do github de forma estruturada",
+  "authors": "Carlos Eduardo Rodrigues de Sousa",
+  "version": "1.0.0",
+  "main": "pathToMain",
+  "dependencies": {
+    "axios": "^0.20.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "ts-node-dev": "^1.0.0-pre.61",
+    "typescript": "^4.0.2"
+  },
+  "scripts": {
+    "start": "ts-node-dev --transpile-only index.ts",
+    "build": "tsc"
+  }
+}
